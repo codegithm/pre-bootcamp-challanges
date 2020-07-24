@@ -11,4 +11,5 @@ function findVowels(word){
     return vowelsFound
 }
 
+//For Testing Purpose
 console.log(findVowels('Andile'));

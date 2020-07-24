@@ -2,7 +2,7 @@ function convertToTime(num){
     let div = num/60;
     // make div an array
     let arrDiv = div.toString().split('.');
-    
+
     // turn string to int
     let hour = parseInt(arrDiv[0]);
     let minutes = isNaN(0 + parseInt(arrDiv  [1])) ? 0: parseInt(arrDiv[1]).toString().substring(0,2);
@@ -10,5 +10,5 @@ function convertToTime(num){
     return time
 };
 
-// print test
+//For Testing Purpose
 console.log(convertToTime(175))

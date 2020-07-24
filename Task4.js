@@ -15,5 +15,5 @@ function taskFunction (num1,num2){
       }
     };
     
-    // print test
+   //For Testing Purpose
     console.log(taskFunction(10,3));

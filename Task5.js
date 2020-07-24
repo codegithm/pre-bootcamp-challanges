@@ -6,4 +6,5 @@ function calculateArea(a,b,c){
     return area
 };
 
+//For Testing Purpose
 console.log(calculateArea(3,7,5));

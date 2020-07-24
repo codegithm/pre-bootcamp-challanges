@@ -7,6 +7,7 @@ function findMax(a,b,c) {
         }
     }
     return maxNum
-}
+};
 
+//For Testing Purpose
 console.log(findMax(2,7,6));

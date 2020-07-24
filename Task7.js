@@ -4,7 +4,7 @@ function celciusConvertor(celcius){
     return fahrenheit
 };
 
-// Print test
+//For Testing Purpose
 console.log(celciusConvertor(45))
 
 // from fahrenheit to celcius
@@ -13,5 +13,5 @@ function fahrenheitConvertor(fahrenheit){
     return celcius
 };
 
-// Print test
+//For Testing Purpose
 console.log(fahrenheitConvertor(75))

@@ -17,5 +17,5 @@ function SumOfmultiples(){
     return sum
 };
 
-// print test
+//For Testing Purpose
 console.log(SumOfmultiples());
