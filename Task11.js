@@ -5,7 +5,7 @@ function matchedLetters(word1,word2){
     let match = [];
 
     for(let i = 0; i<firstArr.length; i++){
-        if(secArr.indexOf(firstArr[i]) >= 0){
+        if(secArr.indexOf(firstArr[i]) >= 0 && match.indexOf(firstArr[i]) < 0){
            match.push(firstArr[i]); 
         }
     }
@@ -14,4 +14,4 @@ function matchedLetters(word1,word2){
 }
 
 //For testing purpose
-console.log(matchedLetters('mpendulo','andile'));
+console.log(matchedLetters('computers','house'));
